@@ -1,216 +1,191 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lobster&display=swap');
-
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-body{
-    background: #aa44e56e ;
-}
-
-/* section  */
-section{
-    margin: 27px;
-    padding: 15px;
-    border-radius: 30px;
-    background: white;
-    box-shadow: 3px 6px 7px 0px black;;
-}
-
-.title-para{
-    margin: 11px auto;
-    padding: 9px;
-    /* border:2px solid black; */
-
 
 }
-.title-para p{
-    width: 60%;
-    justify-content: center;
-    margin: 9px auto;
-    padding: 7px;
-    font-size: 2rem;
+.box-1st{
+    /* background: url("../image/section.jpg"); */
+    background: url("../image/slice.jpg");
+
+
+
+    height: 580px;
+    object-fit: cover;
+    width: 100%;
+   background-attachment: fixed;
+   background-size: cover;
+   padding: 12px 0px;
+   /* border: 2px solid rgb(252, 10, 10); */
+}
+
+
+.box-para{
+    margin: 13px 0px;
     text-align: center;
-    font-family: 'Dancing Script', cursive;
-}
-.gallery{
-    margin: 10px auto;
-    padding: 9px;
-    display: flex;
+    justify-content: center;
+    background: rgba(145, 144, 144, 0.459);
+    /* margin: 9px auto; */
     
 }
-.gal-1 {
+.box-para h2{
+    color: white;
+    width: 65%;
+    margin: 9px auto;
+
+}
+.image-row{
     display: flex;
-    margin: 9px;
-    padding: 7px;
-    flex-direction: column;
-    width: 35%;
+    background: #6d333350;
+}
+
+.image-row img{
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    margin: 30px auto;
+    box-shadow: 2px 2px 7px black;
 }
 
 
-.gal-1 img{
-height: 350px;
-width: 400px;
-margin: 9px auto;
-object-fit: cover;
-box-shadow: 3px 4px 9px black;
-}
-.para{
+.brwose-btn button{
+    border: 2px solid seashell;
+    margin: 12px auto;
     display: flex;
-    height: 80%;
-    width: 80%;
-    border: 2px solid red;
-    position: relative;
-    top: 0%;
-    left: 0%;
-    justify-content: center;
-    text-align: center;
-    margin: auto auto;
-    z-index: -1;
-    /* display: none; */
+    background: none;
+    box-shadow: 2px 2px 7px black;
 }
-
-
-
-
-
-
-
-
-
-/* imgae hover  */
-
-.mid-para{
-    margin: 7px auto;
-    padding: 5px;
-    display: flex;
-    /* width: 25%; */
-}
-.mid-para li{
-    list-style: none;
-    margin: auto auto;
-    padding: 78px;
-    /* height: 100vw; */
-    font-size: 3rem;
-
-}
-.linker{
-    /* border: 2px solid black; */
-    margin: 10px;
-    padding: 9px;
-    /* display: flex; */
-}
-.linker h3{
-    /* border: 2px solid blueviolet; */
-    display: flex;
-    margin: auto auto;
-    justify-content: center;
-    font-size: 2.5rem;
-}
-
-.all-catg ul{
-    /* border: 2px solid green; */
-    display: flex;
-    margin: 15px auto;
-    padding: 12px;
-
-}
-
-.all-catg ul li{
-    margin: 13px auto;
-    padding: 10px;
-    list-style: none;
-}
-.all-catg ul li a{
-    text-decoration: none;
-    font-size: 1.5rem;
+.brwose-btn button a{
+  text-decoration: none;
+  margin: 3px;
+  padding: 5px;
+    color: white;
     font-weight: bold;
-    text-transform: uppercase;
-    cursor: pointer;
-    color: rgba(253, 7, 7, 0.705);
-}
-.all-catg ul li a:hover{
-    color: #db1d63;
+    text-shadow: 2px 2px 3px black;
 }
 
-.end-para{
-    /* border: 2px solid greenyellow; */
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-.end-para{
-    font-size: 1.5rem;
-    font-family: 'Lobster', cursive;
-    font-weight: 300;
+.brwose-btn button a:hover{
+  text-decoration: underline;
 }
 
 
 
-/* responsive  */
-@media only screen and (max-width:1180px){
-    .gal-1 {
-        display: flex;
-        margin: 9px auto;
-        padding: 7px;
-        flex-direction: column;
-        width: 30%;
-    }
-
-    .title-para p{
-        width: 95%;
-    }
-    .gal-1 img{
-        height: 300px;
-        width: 250px;
-        margin: 9px auto;
-        /* padding: 7px; */
-        object-fit: cover;
-        box-shadow: 3px 4px 9px black;
-        }
-}
-
-
-@media only screen and (max-width:850px){
-    .gallery{
-       flex-direction: column;
-        
-    }
-
-    .gal-1 {
-       margin: auto auto;
+.box-2nd{
+    background: url("../image/cakebkc.jpg");
+    height: 580px;
+    object-fit: cover;
     width: 100%;
+   background-attachment: fixed;
+   background-size: cover;
+   padding: 12px 0px;
 
-    }
-    .gal-1 img{
-        height: 280px;
-        width: 100%;
-        margin: 9px auto;
-     
-    }
+}
 
-    .mid-para ul{
-        display: flex;
-       flex-direction: row;                                                                                                                                                                                                                                                        ;
-       /* display: inline; */
-    }
 
-    .mid-para li{
-        padding: 2px 9px;
-        font-size: 1.4rem;
-   }
-   .all-catg ul{
-    flex-direction: column;
-    margin: auto auto;
-    justify-content: center;
+.box-3rd{
+    background: url("../image/pbckg.jpg");
+    height: 580px;
+    object-fit: cover;
+    width: 100%;
+   background-attachment: fixed;
+   background-size: cover;
+   padding: 12px 0px;
+
+}
+
+.msg-note{
+    /* border: 2px solid black; */
+    display: flex;
+    background: #462f2098;
+}
+
+.msg-note p{
+    font-size: 1.7rem;
+    width: 65%;
+    margin: 9px auto;
+    color: white;
     text-align: center;
+}
+
+@media only screen and (max-width: 1054px)
+{
+    .image-row img{
+        height: 300px;
+        width: 280px;
+        /* object-fit: cover; */
+        margin: 30px auto;
+        /* box-shadow: 2px 2px 7px black; */
+    }
+
+}
+
+@media only screen and (max-width: 848px)
+{
+    .image-row img{
+        height: 270px;
+        width: 230px;
+        /* object-fit: cover; */
+        margin: 30px auto;
+        /* box-shadow: 2px 2px 7px black; */
+    }
+
+}
+
+@media only screen and (max-width: 695px)
+{
+    
+    .box-1st{
+        height: 1315px;
+    }
+    .image-row{
+       flex-direction: column;
+    }
+    .image-row img{
+        height: 300px;
+        width: 100%;    
+    }
+    .box-para h2{
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+
+    .box-2nd{
+        height: 1315px;
+
+    }
+
+    .box-3rd{
+        height: 1315px;
+
+    }
+
+
+
+    .msg-note p{
+        width: 100%;
+        font-size: 1rem;
+
+    }
+
+
+
+
+
+
+
 
 }
 
 
 
-}
+
+
+
+
+
+
+
+
+
 
 
